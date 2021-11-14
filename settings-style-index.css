@@ -1,0 +1,210 @@
+
+
+.settingdown {
+  margin-top: 19px;
+  background-color: #9381ff;
+  border: none;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 3%;
+  right: 50%;
+  border-radius: 50px;
+  height: 500px;
+  width: 60%;
+  max-width: 600px;
+  min-width: 420px;
+  border: 2px solid #f1f1f1;
+  background-color: #b8b8ff;
+  transform: translate(50%, 0%);
+}
+
+/* Add styles to the form container */
+.form-container {
+  margin: auto;
+}
+
+/* Full-width focus input fields */
+.form-container input[type=focus-hours], .form-container input[type=focus-minutes], .form-container input[type=break-hours], .form-container input[type=break-minutes], .form-container input[type=goal] {
+  text-align: center;
+  width: 13px;
+  padding: 10px;
+  margin: 10px 0 22px 0;
+  border-radius: 20%;
+  border: 2px solid #9381ff;
+  background: #f1f1f1;
+}
+
+/* When the break inputs get focus, do something */
+.form-container input[type=break-hours]:focus, .form-container input[type=break-minutes]:focus, .form-container input[type=break-hours]:focus, .form-container input[type=break-minutes]:focus, .form-container input[type=goal]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a cancel button */
+.form-container .cancel {
+  color: black;
+  background-color: #b8b8ff;
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  right: 43%;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.setline {
+  border-color: black;
+  border-bottom: black;
+  min-width: 300px;
+  width: 80%;
+}
+
+.h8 {
+  margin: auto;
+  color: black;
+  font-size: 30px;
+}
+
+.h9 {
+  position: absolute;
+  font-size: 25px;
+  left: 13%;
+  top: 10%;
+}
+
+.h10 {
+  position: absolute;
+  font-size: 25px;
+  left: 48%;
+  top: 10%;
+}
+
+.place1 {
+  position: absolute;
+  margin-top: 10px;
+  left: 12.5%;
+}
+
+.inputplace1 {
+  position: absolute;
+  left: 13%;
+  top: 21%;
+}
+
+.place2 {
+  position: absolute;
+  margin-top: 10px;
+  left: 25.5%;
+}
+
+.inputplace2 {
+  position: absolute;
+  left: 27%;
+  top: 21%;
+}
+
+.place3 {
+  position: absolute;
+  margin-top: 10px;
+  left: 42.5%;
+}
+
+.inputplace3 {
+  position: absolute;
+  left: 42%;
+  top: 21%;
+}
+
+.place4 {
+  position: absolute;
+  margin-top: 10px;
+  left: 55.5%;
+}
+
+.inputplace4 {
+  position: absolute;
+  left: 57%;
+  top: 21%;
+}
+
+.goal {
+  position: absolute;
+  left: 77%;
+  top: 10%;
+  font-size: 25px;
+}
+
+.inputgoal {
+  position: absolute;
+  left: 78%;
+  top: 21%;
+}
+
+  /* Container holding the image and the text */
+.imgcont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.backimg3 {
+  position: absolute;
+  width: 90%;
+  top: 230px;
+  transform: translate(-50%, -50%);
+  height: 260px;
+}
+
+.option3 {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  left: 50%;
+  top: 180px;
+  transform: translate(-50%, 0%);
+}
+
+.otheroptions {
+  position: absolute;
+  font-size: 23px;
+  left: 50%;
+  color: black;
+  top: 250px;
+  transform: translate(-50%, 0%);
+}
+
+.otheroptions2 {
+  position: absolute;
+  font-size: 23px;
+  left: 50%;
+  color: black;
+  top: 310px;
+  transform: translate(-50%, 0%);
+}
+
+.contact {
+  position: fixed;
+  left: 50%;
+  top: 370px;
+  color: black;
+  font-size: 23px;
+  transform: translate(-50%, 0%);
+}
